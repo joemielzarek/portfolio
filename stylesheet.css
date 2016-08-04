@@ -1,3 +1,20 @@
+.beast {
+  position: fixed;
+  left: 50%;
+  top: 1372px;
+  z-index: 2;
+}
+
+.mdb {
+  margin-right: 400px;
+}
+
+.myname{
+  display:none;
+  margin-right: 400px;
+
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -10,7 +27,7 @@ body {
 
 }
 .section:nth-child(3) {
-    background: rgb(0, 2, 136);
+    background: whitesmoke;
 }
 .section:nth-child(4) {
     background: rgb(244, 67, 54);
@@ -75,6 +92,68 @@ h5 {
     }
 }
 
+.scroll-indicator2 {
+    position: fixed;
+    left: 50%;
+    color: white;
+    font-size: 50px !important;
+    -webkit-animation: bounce2 1s infinite;
+    animation: bounce2 1s infinite;
+}
+@-webkit-keyframes bounce2 {
+    0% {
+        top: 185%;
+    }
+    50% {
+        top: 190%;
+    }
+    100% {
+        top: 185%;
+    }
+}
+@keyframes bounce2 {
+    0% {
+        top: 185%;
+    }
+    50% {
+        top: 190%;
+    }
+    100% {
+        top: 185%;
+    }
+}
+
+.scroll-indicator3 {
+    position: fixed;
+    left: 50%;
+    color: black;
+    font-size: 50px !important;
+    -webkit-animation: bounce3 1s infinite;
+    animation: bounce3 1s infinite;
+}
+@-webkit-keyframes bounce3 {
+    0% {
+        top: 285%;
+    }
+    50% {
+        top: 290%;
+    }
+    100% {
+        top: 285%;
+    }
+}
+@keyframes bounce3 {
+    0% {
+        top: 285%;
+    }
+    50% {
+        top: 290%;
+    }
+    100% {
+        top: 285%;
+    }
+}
+
 
 canvas {
 	background-color: black;
@@ -103,7 +182,7 @@ canvas {
 img {
   position: absolute;
     left: -10%;
-    top: 34%;
+    top: 21%;
     z-index: 3;
 }
 

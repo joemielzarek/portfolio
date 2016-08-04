@@ -8,6 +8,21 @@ $( document ).ready(function() {
       navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage']
     });
 
+    $('.beast').on({
+  'mouseover' : function() {
+    $(this).attr('src','https://s31.postimg.org/b8xrjq4kr/normaljoe.png');
+    $('.myname').show();
+    $('.mdb').hide();
+
+  },
+  mouseout : function() {
+$(this).attr('src','https://s32.postimg.org/l4rgxxe9x/beastjoe.png');
+  $('.myname').hide();
+  $('.mdb').show();
+
+  }
+});
+
 
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
