@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_mythical_dev_beast",
+  "version": "1.0.0",
+  "description": "Portfolio site of Joe Mielzarek, the Mythical Development Beast.",
+  "main": "serverapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/serverapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemielzarek/portfolio.git"
+  },
+  "author": "joseph.mielzarek@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joemielzarek/portfolio/issues"
+  },
+  "homepage": "https://github.com/joemielzarek/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
