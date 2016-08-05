@@ -5,8 +5,11 @@ $( document ).ready(function() {
       anchors: ['Warning', 'Myth', 'The Beast', 'Experience', 'Contact'],
       menu: '#myMenu',
       navigation: true,
-      navigationTooltips: ['Warning', 'Myth', 'The Beast', 'Experience', 'Contact']
+      navigationTooltips: ['Warning', 'Myth', 'The Beast', 'Experience', 'Contact'],
+      responsiveWidth: 1100
     });
+
+    alert("Thank you for paying a visit to the Mythical Development Beast. His site is currently under construction, but feel free to take a look around.");
 
     $('.beast').on({
   'mouseover' : function() {
