@@ -81,12 +81,12 @@ html.fp-enabled,
     left: 40px;
     width: 0;
     border-width: 20px 25px 20px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #000 transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 40px;
     border-width: 20px 0 20px 25px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #000;
 }
 .fp-scrollable {
     overflow: hidden;
@@ -171,7 +171,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: gray;
+    background: black;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -189,7 +189,7 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: grey;
+    color: black;
     font-size: 16px;
     font-family: helvetica, sans-serif;
     white-space: nowrap;
