@@ -1,12 +1,25 @@
+
 $( document ).ready(function() {
     console.log( "ready!" );
 
     $('#fullpage').fullpage({
-      anchors: ['Warning', 'Myth', 'True Form', 'Connect', 'The Beast'],
+      anchors: ['Warning', 'Myth', 'True Form', 'Experience', 'Connect'],
       menu: '#myMenu',
       navigation: true,
-      navigationTooltips: ['Warning', 'Myth', 'True Form', 'Connect', 'The Beast'],
+      navigationTooltips: ['Warning', 'Myth', 'True Form', 'Experience', 'Connect'],
       responsiveWidth: 1100
+    });
+
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 0,
+        grabCursor: true
     });
 
     $('.beast').on({

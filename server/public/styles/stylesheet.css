@@ -40,11 +40,13 @@ body {
     background: white;
 }
 .section:nth-child(4) {
-    background: white;
+    background: black;
 }
 .section:nth-child(5) {
-    background: white;
+    background: black;
 }
+
+
 
 /*h1 {
     color: #fff;
@@ -178,7 +180,7 @@ canvas {
     font-size: 30px;
 }
 
-img {
+.beastIcon {
   position: fixed;
     left: -2%;
     top: 120%;
@@ -655,4 +657,108 @@ body, html{
 	margin-top: -150px;
 	line-height: 30px;
 
+}
+
+.hide {
+	display: none;
+}
+
+/* Swiper */
+.swiper-container {
+        width: 100%;
+        height: 600px;
+    }
+    .swiper-slide {
+        text-align: center;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+.over {
+	width: 100%;
+	height: 600px;
+	background-color: black;
+	opacity: .8;
+	text-align: center;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.raisable {
+	background: url("https://s10.postimg.org/wgodaxq3d/Screen_Shot_2016_08_11_at_4_01_03_PM.png");
+}
+
+.streamix {
+	background: url("https://s9.postimg.org/43bjwr5sv/Screen_Shot_2016_08_11_at_4_13_52_PM.png");
+}
+
+.walletless {
+	background: url("https://s9.postimg.org/nd6o9xd27/Screen_Shot_2016_08_11_at_4_11_32_PM.png");
+}
+
+.number {
+	background: url("https://s10.postimg.org/3tt4cz6ah/Screen_Shot_2016_08_11_at_4_11_45_PM.png");
+}
+
+.resume {
+	background: url("https://s9.postimg.org/g7ijv5ghb/Screen_Shot_2016_08_11_at_4_18_21_PM.png");
+}
+
+a {
+	text-decoration: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+	margin-left: 40px;
+	margin-right: 40px;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.burst {
+	width: 500px;
+	height: 500px;
+	z-index: 0;
+	margin: 0;
+	padding: 0;
+	left: 20px;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
 }

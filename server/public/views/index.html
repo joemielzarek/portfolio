@@ -11,9 +11,13 @@
 <title>The Mythical Development Beast</title>
 
     <link rel="stylesheet" type="text/css" href="/vendors/jquery.fullPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.css" />
     <link rel="stylesheet" href="/styles/stylesheet.css" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
+
     <script type="text/javascript" src="/vendors/jquery.fullPage.js"></script>
     <script src="https://use.fontawesome.com/ab9857ca24.js"></script>
     <script src="/scripts/app.js"></script>
@@ -27,7 +31,7 @@
             <i class="scroll-indicator fa fa-angle-double-down"></i>
         </div>
         <div class="section" id="section1">
-          <img src="../assets/noun_85575_cc.png" />
+          <img class="beastIcon" src="../assets/noun_85575_cc.png" />
           <div class="circle">
             <div class="overlay"></div>
             </div>
@@ -39,19 +43,60 @@
         <div class="section" id="section2">
               <h3 class="mdb">The Mythical Development Beast has revealed himself. <br /><br /> A new opportunity must await.<br /><br /> Onward!</h3>
               <h3 class="myname">He transformed! <br /><br />This is his warrior form.<br /><br />He's ready to battle the mundane <br /> and put his skills to the test.</h3>
-
               <img class="beast" src="https://s32.postimg.org/olagb7ns5/beastjoe2.png" />
 
               <i class="scroll-indicator3 fa fa-angle-double-down"></i>
 
         </div>
-        <div class="section" id="section3">
-          <h1>Connect</h1>
-<a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-dnt="true" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/thedevbeast">Tweets by thedevbeast</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6322a6737a3c59d49aa0d4ec02ca3da9.html" id="lightwidget_6322a6737a" name="lightwidget_6322a6737a"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 31.5%; border: 0; overflow: hidden;"></iframe>
 
-  </div>
-        <div class="section" id="section4">        </div>
+        <div class="section" id="section3">
+                    <!-- Swiper -->
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide resume">
+                  <div class="over">
+                    <a href="/assets/Joe_Mielzarek_Resume_Summer_2016.pdf" download ><h1>Resume</h1></a>
+                  </div>
+                </div>
+                  <div class="swiper-slide raisable">
+                    <div class="over">
+                      <a href="https://raisable.herokuapp.com/" target="_blank"><h1>Raisable</h1></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide streamix">
+                    <div class="over">
+                      <a href="http://streamix.herokuapp.com/#/mix" target="_blank"><h1>Streamix</h1></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide walletless">
+                    <div class="over">
+                      <a href="http://walletlessjoe.tumblr.com/" target="_blank"><h1>Walletless Joe</h1></a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide number">
+                    <div class="over">
+                      <a href="https://pure-fjord-97676.herokuapp.com/" target="_blank"><h1>Number Cruncher</h1></a>
+                    </div>
+                  </div>
+
+
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+
+
+
+         </div>
+
+         <div class="section" id="section4">
+           <h1>Connect</h1>
+       <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-dnt="true" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/thedevbeast">Tweets by thedevbeast</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+       <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6322a6737a3c59d49aa0d4ec02ca3da9.html" id="lightwidget_6322a6737a" name="lightwidget_6322a6737a"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 31.5%; border: 0; overflow: hidden;"></iframe>
+
+       </div>
 
 
 </body>
